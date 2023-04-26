@@ -1,0 +1,115 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background:linear-gradient(#fefefe, #888888);
+    
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+} 
+
+.input-texto {
+    margin-top: 90px;
+   
+    background-image: url(encriptar-cifrar.png) ;
+
+    color: red;
+
+
+    
+
+}
+
+.input-texto:hover{
+
+    opacity: 0.3;
+transition: 2s;
+}
+
+
+.mensaje {
+    position:relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 15px;
+
+}
+.mensaje-box{
+    position:static;
+    display: inline-block;
+
+
+}
+    
+::placeholder{
+    color: black;
+   font-size: 40px;
+}
+
+
+
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    cursor: pointer;
+    background-color: darkcyan;
+    border-radius: 15px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(110, 136, 38);
+    color:white;
+}
+.encriptar:hover{
+    background-color: aquamarine;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.desencriptar {
+    margin-left: 30px;
+background-color: rgb(143, 145, 52);}
+
+.desencriptar:hover{
+    background-color: rgb(125, 190, 81);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.informacion {
+    font-size: 15px;
+}
+
+@media screen and (max-width:480px) {
+.mensaje-box, .mensaje, .copiar, .main {
+    width: auto;
+}
+}
